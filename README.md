@@ -1,4 +1,3 @@
-````md id="xdr0a1"
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00FF9F&center=true&vCenter=true&width=600&lines=XorDecoder+v4;CTF+XOR+Cryptanalysis+Tool;TryHackMe+%2F+HackTheBox+Ready" />
 </p>
@@ -23,13 +22,13 @@
 
 ## SYSTEM CAPABILITIES
 
-```text id="sys1"
+```
 - Single-byte XOR brute force
 - Repeating-key XOR analysis
 - Key-length inference (1–30 range)
 - Ranked output scoring system
 - Hex / raw byte ingestion
-````
+```
 
 ---
 
@@ -44,43 +43,36 @@ INPUT → HEX DECODE → XOR ANALYSIS → KEY GUESSING → SCORING ENGINE → TO
 ## CORE ENGINE
 
 ### Single Byte Attack
-
 Brute force over 0–255 keyspace and evaluate plaintext probability.
 
 ### Multi Byte Attack
-
 Column-based frequency analysis for repeating XOR keys.
 
 ---
 
 ## SCORING MODEL
 
-```math id="score"
 Score = PrintableRatio + KeywordWeight + SpaceDistribution
-```
 
 Key indicators:
-
-* printable ASCII density
-* CTF keyword hits (flag, thm, xor)
-* linguistic spacing patterns
+- printable ASCII density  
+- CTF keyword hits (flag, thm, xor)  
+- linguistic spacing patterns  
 
 ---
 
 ## USAGE
 
-```bash id="run1"
+```bash
 python xor_decoder.py
 ```
 
 Input:
-
 ```text
 68656c6c6f
 ```
 
 Output:
-
 ```text
 key: b'\x01'
 output: hello
@@ -91,7 +83,7 @@ score: 2.87
 
 ## PROJECT STRUCTURE
 
-```text id="tree"
+```text
 XorDecoder/
 ├── xor_decoder.py
 ├── requirements.txt
@@ -102,7 +94,7 @@ XorDecoder/
 
 ## REQUIREMENTS
 
-```text id="req"
+```text
 colorama
 ```
 
@@ -113,18 +105,18 @@ colorama
 <details>
 <summary>Threat Model Notes</summary>
 
-* Designed for CTF environments only
-* Assumes weak XOR implementations
-* Not suitable for modern cryptographic systems
+- Designed for CTF environments only  
+- Assumes weak XOR implementations  
+- Not suitable for modern cryptographic systems  
 
 </details>
 
 <details>
 <summary>Limitations</summary>
 
-* No AES / modern cipher support
-* Limited NLP-based validation
-* Heuristic scoring may produce false positives
+- No AES / modern cipher support  
+- Limited NLP-based validation  
+- Heuristic scoring may produce false positives  
 
 </details>
 
@@ -142,18 +134,4 @@ This tool is intended strictly for educational use and authorized security resea
 [ OK ] XOR ENGINE INITIALIZED
 [ OK ] ANALYSIS MODULE LOADED
 [ OK ] READY FOR INPUT
-```
-
-```
-
----
-
-İstersen bir sonraki seviye upgrade seçenekleri:
-
-- SVG hacker logo (tam animasyonlu neon terminal)
-- GitHub profile stats panel entegrasyonu
-- “fake terminal attack simulation GIF”
-- otomatik key visualizer (graph output)
-
-Bunlar projeyi “normal CTF tool” seviyesinden “showcase tool” seviyesine çıkarır.
 ```
