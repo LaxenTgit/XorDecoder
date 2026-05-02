@@ -1,9 +1,3 @@
-Aşağıdaki sürüm “daha üst seviye GitHub repo görünümü” için hazırlanmıştır. Dark cyber theme, SVG logo, collapsible alanlar ve daha profesyonel yapı içerir.
-
-Direkt README.md olarak kullanılabilir.
-
----
-
 ````md id="xdr0a1"
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00FF9F&center=true&vCenter=true&width=600&lines=XorDecoder+v4;CTF+XOR+Cryptanalysis+Tool;TryHackMe+%2F+HackTheBox+Ready" />
