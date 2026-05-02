@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00FF9F&center=true&vCenter=true&width=600&lines=XorDecoder+LATENT;CTF+XOR+Cryptanalysis+Tool;TryHackMe+%2F+HackTheBox+Ready" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00FF9F&center=true&vCenter=true&width=600&lines=XorDecoder+LATENT;CTF+XOR+Cryptanalysis+Tool;TryHackMe+%2F+HackTheBox+AndOthers" />
 </p>
 
 ---
